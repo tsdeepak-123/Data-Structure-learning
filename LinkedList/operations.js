@@ -44,11 +44,15 @@ delete(data){
     }
 }
 print(){
+    let sum=0
     let temp=this.head
     while(temp){
         console.log(temp.data)
+        sum+=temp.data
+      
         temp=temp.next
     }
+    console.log("sum =", sum)
 }
 }
 
@@ -58,9 +62,6 @@ const arr=[1,2,3,4,5,6]
 for(let i=0;i<arr.length;i++){
     List.insert(arr[i])
 }
-
-List.delete(3)
-
 
 List.print()
 console.log(List.head.data,"head----tail",List.tail.data)
