@@ -23,7 +23,7 @@
 
 
 function bubble(arr){
-
+ 
 let swapped
 
 do{
@@ -35,13 +35,13 @@ do{
             arr[i+1]=temp
             swapped=true
         }
-    }
+    } 
 }while(swapped){
     return arr
 }
 }
 
-const arr=[1,45,7,9,-6,14,-2]
+const arr=[1,3,5,57,2,86,2,1,30]
 const sorted=bubble(arr)
 console.log(sorted)
 
