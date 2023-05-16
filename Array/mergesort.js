@@ -150,14 +150,14 @@
 // console.log(a)
 
 
-function mergeSort(a,ll,ul){
-    if(ll<ul){
-        let mid=Math.floor((ll+ul)/2)
-        mergeSort(a,ll,mid)
-        mergeSort(a,mid+1,ul)
-        merge(a,ll,mid,ul)
-    }
-}
+// function mergeSort(a,ll,ul){
+//     if(ll<ul){
+//         let mid=Math.floor((ll+ul)/2)
+//         mergeSort(a,ll,mid)
+//         mergeSort(a,mid+1,ul)
+//         merge(a,ll,mid,ul)
+//     }
+// }
 
 // function merge(a,ll,mid,ul){
 //  let i=ll
